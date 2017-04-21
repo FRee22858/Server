@@ -1,0 +1,938 @@
+2017-04-14 16:12:14,480 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E:\x08uy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:12:14,480 392 DEBUG ignore ['']
+2017-04-14 16:13:48,330 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:13:48,330 392 DEBUG ignore ['']
+2017-04-14 16:13:48,346 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:13:48,346 412 INFO events: {'UserBuy'}
+2017-04-14 16:13:48,346 413 INFO start import csv from E://buy.csv
+2017-04-14 16:13:48,346 936 INFO running debug mode
+2017-04-14 16:13:48,346 953 INFO progress 0.00% {'total': 3, 'skip': 0, 'total_write': 0, 'total_read': 0, 'error': 0}
+2017-04-14 16:13:48,460 495 INFO end import csv
+2017-04-14 16:13:48,460 976 INFO counter = {'total': 3, 'skip': 0, 'total_write': 3, 'total_read': 3, 'error': 0}.
+2017-04-14 16:18:38,490 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:18:38,490 392 DEBUG ignore ['']
+2017-04-14 16:18:38,491 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:18:38,492 412 INFO events: {'UserBuy'}
+2017-04-14 16:18:38,492 413 INFO start import csv from E://buy.csv
+2017-04-14 16:18:38,493 936 INFO running debug mode
+2017-04-14 16:18:38,493 953 INFO progress 0.00% {'error': 0, 'total': 3, 'total_write': 0, 'skip': 0, 'total_read': 0}
+2017-04-14 16:18:38,597 495 INFO end import csv
+2017-04-14 16:18:38,597 976 INFO counter = {'error': 0, 'total': 3, 'total_write': 3, 'skip': 0, 'total_read': 3}.
+2017-04-14 16:20:07,800 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:20:07,800 392 DEBUG ignore ['']
+2017-04-14 16:20:07,801 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:20:07,802 412 INFO events: {'UserBuy'}
+2017-04-14 16:20:07,802 413 INFO start import csv from E://buy.csv
+2017-04-14 16:20:07,802 936 INFO running debug mode
+2017-04-14 16:20:07,802 953 INFO progress 0.00% {'total_read': 0, 'total_write': 0, 'skip': 0, 'error': 0, 'total': 3}
+2017-04-14 16:20:07,923 495 INFO end import csv
+2017-04-14 16:20:07,923 976 INFO counter = {'total_read': 3, 'total_write': 3, 'skip': 0, 'error': 0, 'total': 3}.
+2017-04-14 16:20:21,346 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:20:21,346 392 DEBUG ignore ['']
+2017-04-14 16:20:21,346 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:20:21,346 412 INFO events: {'UserBuy'}
+2017-04-14 16:20:21,346 413 INFO start import csv from E://buy.csv
+2017-04-14 16:20:21,346 936 INFO running debug mode
+2017-04-14 16:20:21,346 953 INFO progress 0.00% {'error': 0, 'skip': 0, 'total_read': 0, 'total_write': 0, 'total': 3}
+2017-04-14 16:20:21,439 495 INFO end import csv
+2017-04-14 16:20:21,439 976 INFO counter = {'error': 0, 'skip': 0, 'total_read': 3, 'total_write': 3, 'total': 3}.
+2017-04-14 16:21:53,495 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:21:53,495 392 DEBUG ignore ['']
+2017-04-14 16:21:53,495 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:21:53,495 412 INFO events: {'UserBuy'}
+2017-04-14 16:21:53,495 413 INFO start import csv from E://buy.csv
+2017-04-14 16:21:53,495 936 INFO running debug mode
+2017-04-14 16:21:53,495 953 INFO progress 0.00% {'total': 3, 'error': 0, 'skip': 0, 'total_write': 0, 'total_read': 0}
+2017-04-14 16:21:54,942 495 INFO end import csv
+2017-04-14 16:21:54,942 976 INFO counter = {'total': 3, 'error': 0, 'skip': 0, 'total_write': 3, 'total_read': 3}.
+2017-04-14 16:22:07,858 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:22:07,859 392 DEBUG ignore ['']
+2017-04-14 16:22:07,859 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:22:07,860 412 INFO events: {'UserBuy'}
+2017-04-14 16:22:07,861 413 INFO start import csv from E://buy.csv
+2017-04-14 16:22:07,861 936 INFO running debug mode
+2017-04-14 16:22:07,862 953 INFO progress 0.00% {'total_write': 0, 'skip': 0, 'total': 3, 'total_read': 0, 'error': 0}
+2017-04-14 16:22:07,928 495 INFO end import csv
+2017-04-14 16:22:07,928 976 INFO counter = {'total_write': 3, 'skip': 0, 'total': 3, 'total_read': 3, 'error': 0}.
+2017-04-14 16:27:18,760 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:27:18,760 392 DEBUG ignore ['']
+2017-04-14 16:27:18,775 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:27:18,775 412 INFO events: {'UserBuy'}
+2017-04-14 16:27:18,775 413 INFO start import csv from E://buy.csv
+2017-04-14 16:27:18,775 936 INFO running debug mode
+2017-04-14 16:27:18,775 953 INFO progress 0.00% {'total': 3, 'total_write': 0, 'total_read': 0, 'skip': 0, 'error': 0}
+2017-04-14 16:27:18,854 495 INFO end import csv
+2017-04-14 16:27:18,854 976 INFO counter = {'total': 3, 'total_write': 3, 'total_read': 3, 'skip': 0, 'error': 0}.
+2017-04-14 16:28:29,129 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:29,129 392 DEBUG ignore ['']
+2017-04-14 16:28:29,129 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:29,129 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:29,129 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:29,129 936 INFO running debug mode
+2017-04-14 16:28:29,129 953 INFO progress 0.00% {'total': 3, 'error': 0, 'skip': 0, 'total_read': 0, 'total_write': 0}
+2017-04-14 16:28:29,223 495 INFO end import csv
+2017-04-14 16:28:29,223 976 INFO counter = {'total': 3, 'error': 0, 'skip': 0, 'total_read': 3, 'total_write': 3}.
+2017-04-14 16:28:29,613 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:29,613 392 DEBUG ignore ['']
+2017-04-14 16:28:29,613 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:29,613 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:29,613 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:29,613 936 INFO running debug mode
+2017-04-14 16:28:29,613 953 INFO progress 0.00% {'skip': 0, 'total_write': 0, 'error': 0, 'total': 3, 'total_read': 0}
+2017-04-14 16:28:29,723 495 INFO end import csv
+2017-04-14 16:28:29,723 976 INFO counter = {'skip': 0, 'total_write': 3, 'error': 0, 'total': 3, 'total_read': 3}.
+2017-04-14 16:28:30,082 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:30,082 392 DEBUG ignore ['']
+2017-04-14 16:28:30,082 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:30,082 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:30,098 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:30,098 936 INFO running debug mode
+2017-04-14 16:28:30,098 953 INFO progress 0.00% {'total_write': 0, 'skip': 0, 'error': 0, 'total_read': 0, 'total': 3}
+2017-04-14 16:28:30,254 495 INFO end import csv
+2017-04-14 16:28:30,254 976 INFO counter = {'total_write': 3, 'skip': 0, 'error': 0, 'total_read': 3, 'total': 3}.
+2017-04-14 16:28:43,409 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:43,409 392 DEBUG ignore ['']
+2017-04-14 16:28:43,409 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:43,409 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:43,409 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:43,409 936 INFO running debug mode
+2017-04-14 16:28:43,409 953 INFO progress 0.00% {'total_read': 0, 'skip': 0, 'total_write': 0, 'error': 0, 'total': 3}
+2017-04-14 16:28:43,550 495 INFO end import csv
+2017-04-14 16:28:43,550 976 INFO counter = {'total_read': 3, 'skip': 0, 'total_write': 3, 'error': 0, 'total': 3}.
+2017-04-14 16:28:43,973 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:43,973 392 DEBUG ignore ['']
+2017-04-14 16:28:43,974 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:43,976 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:43,976 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:43,976 936 INFO running debug mode
+2017-04-14 16:28:43,977 953 INFO progress 0.00% {'skip': 0, 'total': 3, 'error': 0, 'total_read': 0, 'total_write': 0}
+2017-04-14 16:28:44,056 495 INFO end import csv
+2017-04-14 16:28:44,056 976 INFO counter = {'skip': 0, 'total': 3, 'error': 0, 'total_read': 3, 'total_write': 3}.
+2017-04-14 16:28:44,399 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'user',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:28:44,399 392 DEBUG ignore ['']
+2017-04-14 16:28:44,399 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'}}
+2017-04-14 16:28:44,399 412 INFO events: {'UserBuy'}
+2017-04-14 16:28:44,399 413 INFO start import csv from E://buy.csv
+2017-04-14 16:28:44,399 936 INFO running debug mode
+2017-04-14 16:28:44,399 953 INFO progress 0.00% {'error': 0, 'total': 3, 'total_write': 0, 'total_read': 0, 'skip': 0}
+2017-04-14 16:28:44,478 495 INFO end import csv
+2017-04-14 16:28:44,478 976 INFO counter = {'error': 0, 'total': 3, 'total_write': 3, 'total_read': 3, 'skip': 0}.
+2017-04-14 16:38:44,920 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'usr',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:38:44,920 394 DEBUG ignore ['']
+2017-04-14 16:38:44,920 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:38:44,920 414 INFO events: {'UserBuy'}
+2017-04-14 16:38:44,920 415 INFO start import csv from E://buy.csv
+2017-04-14 16:38:44,920 938 INFO running debug mode
+2017-04-14 16:38:44,920 955 INFO progress 0.00% {'total_read': 0, 'total': 3, 'error': 0, 'total_write': 0, 'skip': 0}
+2017-04-14 16:38:44,920 964 WARNING failed to parse line 1
+2017-04-14 16:38:44,936 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '13579', 'buy_time': '2015-01-20 10:35:22', 'item_name': '真皮帽子 男士护耳保暖鸭舌皮帽平顶八角帽头层牛皮帽子时尚休闲', 'user': '小明', 'item_cate': '男装'}]
+
+2017-04-14 16:38:44,936 964 WARNING failed to parse line 2
+2017-04-14 16:38:44,936 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '24680', 'buy_time': '2015-07-13 23:12:03', 'item_name': '官方正品ZINO 3D透亮无瑕BB霜SPF30PA++ 防晒遮瑕美白 小样 3ml', 'user': '小芳', 'item_cate': '护肤'}]
+
+2017-04-14 16:38:44,936 964 WARNING failed to parse line 3
+2017-04-14 16:38:44,936 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '31415', 'buy_time': '2015-04-03 20:30:01', 'item_name': 'New Order Technique 2CD豪华版 欧版行货 全新未拆', 'user': '小武', 'item_cate': '音像'}]
+
+2017-04-14 16:38:44,936 497 INFO end import csv
+2017-04-14 16:38:44,936 978 INFO counter = {'total_read': 3, 'total': 3, 'error': 3, 'total_write': 0, 'skip': 0}.
+2017-04-14 16:38:45,323 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'usr',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:38:45,323 394 DEBUG ignore ['']
+2017-04-14 16:38:45,323 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:38:45,323 414 INFO events: {'UserBuy'}
+2017-04-14 16:38:45,323 415 INFO start import csv from E://buy.csv
+2017-04-14 16:38:45,323 938 INFO running debug mode
+2017-04-14 16:38:45,323 955 INFO progress 0.00% {'total': 3, 'total_read': 0, 'error': 0, 'skip': 0, 'total_write': 0}
+2017-04-14 16:38:45,323 964 WARNING failed to parse line 1
+2017-04-14 16:38:45,323 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_cate': '男装', 'user': '小明', 'item_name': '真皮帽子 男士护耳保暖鸭舌皮帽平顶八角帽头层牛皮帽子时尚休闲', 'buy_time': '2015-01-20 10:35:22', 'item_id': '13579'}]
+
+2017-04-14 16:38:45,323 964 WARNING failed to parse line 2
+2017-04-14 16:38:45,323 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_cate': '护肤', 'user': '小芳', 'item_name': '官方正品ZINO 3D透亮无瑕BB霜SPF30PA++ 防晒遮瑕美白 小样 3ml', 'buy_time': '2015-07-13 23:12:03', 'item_id': '24680'}]
+
+2017-04-14 16:38:45,339 964 WARNING failed to parse line 3
+2017-04-14 16:38:45,339 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_cate': '音像', 'user': '小武', 'item_name': 'New Order Technique 2CD豪华版 欧版行货 全新未拆', 'buy_time': '2015-04-03 20:30:01', 'item_id': '31415'}]
+
+2017-04-14 16:38:45,339 497 INFO end import csv
+2017-04-14 16:38:45,339 978 INFO counter = {'total': 3, 'total_read': 3, 'error': 3, 'skip': 0, 'total_write': 0}.
+2017-04-14 16:38:45,698 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'usr',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:38:45,698 394 DEBUG ignore ['']
+2017-04-14 16:38:45,698 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:38:45,698 414 INFO events: {'UserBuy'}
+2017-04-14 16:38:45,698 415 INFO start import csv from E://buy.csv
+2017-04-14 16:38:45,698 938 INFO running debug mode
+2017-04-14 16:38:45,698 955 INFO progress 0.00% {'skip': 0, 'total_write': 0, 'error': 0, 'total_read': 0, 'total': 3}
+2017-04-14 16:38:45,698 964 WARNING failed to parse line 1
+2017-04-14 16:38:45,698 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'buy_time': '2015-01-20 10:35:22', 'item_id': '13579', 'item_cate': '男装', 'item_name': '真皮帽子 男士护耳保暖鸭舌皮帽平顶八角帽头层牛皮帽子时尚休闲', 'user': '小明'}]
+
+2017-04-14 16:38:45,698 964 WARNING failed to parse line 2
+2017-04-14 16:38:45,698 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'buy_time': '2015-07-13 23:12:03', 'item_id': '24680', 'item_cate': '护肤', 'item_name': '官方正品ZINO 3D透亮无瑕BB霜SPF30PA++ 防晒遮瑕美白 小样 3ml', 'user': '小芳'}]
+
+2017-04-14 16:38:45,698 964 WARNING failed to parse line 3
+2017-04-14 16:38:45,698 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'buy_time': '2015-04-03 20:30:01', 'item_id': '31415', 'item_cate': '音像', 'item_name': 'New Order Technique 2CD豪华版 欧版行货 全新未拆', 'user': '小武'}]
+
+2017-04-14 16:38:45,698 497 INFO end import csv
+2017-04-14 16:38:45,698 978 INFO counter = {'skip': 0, 'total_write': 0, 'error': 3, 'total_read': 3, 'total': 3}.
+2017-04-14 16:39:24,404 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'usr',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:39:24,405 394 DEBUG ignore ['']
+2017-04-14 16:39:24,407 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:39:24,407 414 INFO events: {'UserBuy'}
+2017-04-14 16:39:24,408 415 INFO start import csv from E://buy.csv
+2017-04-14 16:39:24,408 938 INFO running debug mode
+2017-04-14 16:39:24,408 955 INFO progress 0.00% {'total_write': 0, 'total_read': 0, 'total': 3, 'error': 0, 'skip': 0}
+2017-04-14 16:39:24,409 964 WARNING failed to parse line 1
+2017-04-14 16:39:24,410 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '13579', 'item_cate': '男装', 'buy_time': '2015-01-20 10:35:22', 'user': '小明', 'item_name': '真皮帽子 男士护耳保暖鸭舌皮帽平顶八角帽头层牛皮帽子时尚休闲'}]
+
+2017-04-14 16:39:24,411 964 WARNING failed to parse line 2
+2017-04-14 16:39:24,411 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '24680', 'item_cate': '护肤', 'buy_time': '2015-07-13 23:12:03', 'user': '小芳', 'item_name': '官方正品ZINO 3D透亮无瑕BB霜SPF30PA++ 防晒遮瑕美白 小样 3ml'}]
+
+2017-04-14 16:39:24,412 964 WARNING failed to parse line 3
+2017-04-14 16:39:24,413 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[usr] in record[{'item_id': '31415', 'item_cate': '音像', 'buy_time': '2015-04-03 20:30:01', 'user': '小武', 'item_name': 'New Order Technique 2CD豪华版 欧版行货 全新未拆'}]
+
+2017-04-14 16:39:24,414 497 INFO end import csv
+2017-04-14 16:39:24,414 978 INFO counter = {'total_write': 0, 'total_read': 3, 'total': 3, 'error': 3, 'skip': 0}.
+2017-04-14 16:40:19,976 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:40:19,976 394 DEBUG ignore ['']
+2017-04-14 16:40:19,976 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_id': {'cname': 'item_id', 'ename': 'item_id', 'type': 'number'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:40:19,976 414 INFO events: {'UserBuy'}
+2017-04-14 16:40:19,976 415 INFO start import csv from E://buy.csv
+2017-04-14 16:40:19,976 938 INFO running debug mode
+2017-04-14 16:40:19,976 955 INFO progress 0.00% {'total_read': 0, 'total': 3, 'total_write': 0, 'skip': 0, 'error': 0}
+2017-04-14 16:40:19,976 964 WARNING failed to parse line 1
+2017-04-14 16:40:19,976 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[id] in record[{'item_cate': '男装', 'item_id': '13579', 'user': '小明', 'item_name': '真皮帽子 男士护耳保暖鸭舌皮帽平顶八角帽头层牛皮帽子时尚休闲', 'buy_time': '2015-01-20 10:35:22'}]
+
+2017-04-14 16:40:19,976 964 WARNING failed to parse line 2
+2017-04-14 16:40:19,976 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[id] in record[{'item_cate': '护肤', 'item_id': '24680', 'user': '小芳', 'item_name': '官方正品ZINO 3D透亮无瑕BB霜SPF30PA++ 防晒遮瑕美白 小样 3ml', 'buy_time': '2015-07-13 23:12:03'}]
+
+2017-04-14 16:40:19,976 964 WARNING failed to parse line 3
+2017-04-14 16:40:19,976 965 WARNING Traceback (most recent call last):
+  File "..//FormatImporter//format_importer//format_importer.py", line 960, in main
+    formatter.send(sa, record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 349, in send_event
+    distinct_id = self.get_distinct_id(record)
+  File "..//FormatImporter//format_importer//format_importer.py", line 189, in distinct_id_getter
+    raise Exception('cannot find distinct_id[%s] in record[%s]' % (args.distinct_id_from, record))
+Exception: cannot find distinct_id[id] in record[{'item_cate': '音像', 'item_id': '31415', 'user': '小武', 'item_name': 'New Order Technique 2CD豪华版 欧版行货 全新未拆', 'buy_time': '2015-04-03 20:30:01'}]
+
+2017-04-14 16:40:19,976 497 INFO end import csv
+2017-04-14 16:40:19,976 978 INFO counter = {'total_read': 3, 'total': 3, 'total_write': 0, 'skip': 0, 'error': 3}.
+2017-04-14 16:41:26,881 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'item_id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:41:26,881 394 DEBUG ignore ['']
+2017-04-14 16:41:26,881 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:41:26,881 414 INFO events: {'UserBuy'}
+2017-04-14 16:41:26,881 415 INFO start import csv from E://buy.csv
+2017-04-14 16:41:26,881 938 INFO running debug mode
+2017-04-14 16:41:26,881 955 INFO progress 0.00% {'error': 0, 'skip': 0, 'total_write': 0, 'total': 3, 'total_read': 0}
+2017-04-14 16:41:27,022 497 INFO end import csv
+2017-04-14 16:41:27,022 978 INFO counter = {'error': 0, 'skip': 0, 'total_write': 3, 'total': 3, 'total_read': 3}.
+2017-04-14 16:52:23,100 931 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'item_id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 16:52:23,100 394 DEBUG ignore ['']
+2017-04-14 16:52:23,100 413 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 16:52:23,100 414 INFO events: {'UserBuy'}
+2017-04-14 16:52:23,100 415 INFO start import csv from E://buy.csv
+2017-04-14 16:52:23,100 938 INFO running debug mode
+2017-04-14 16:52:23,100 955 INFO progress 0.00% {'total_read': 0, 'total': 3, 'error': 0, 'skip': 0, 'total_write': 0}
+2017-04-14 16:52:23,240 497 INFO end import csv
+2017-04-14 16:52:23,240 978 INFO counter = {'total_read': 3, 'total': 3, 'error': 0, 'skip': 0, 'total_write': 3}.
+2017-04-14 17:35:24,628 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'item_id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 17:35:24,628 392 DEBUG ignore ['']
+2017-04-14 17:35:24,628 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 17:35:24,628 412 INFO events: {'UserBuy'}
+2017-04-14 17:35:24,628 413 INFO start import csv from E://buy.csv
+2017-04-14 17:35:24,628 936 INFO running debug mode
+2017-04-14 17:35:24,643 953 INFO progress 0.00% {'total': 3, 'error': 0, 'total_read': 0, 'total_write': 0, 'skip': 0}
+2017-04-14 17:35:24,706 495 INFO end import csv
+2017-04-14 17:35:24,706 976 INFO counter = {'total': 3, 'error': 0, 'total_read': 3, 'total_write': 3, 'skip': 0}.
+2017-04-14 17:35:30,755 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'item_id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 17:35:30,755 392 DEBUG ignore ['']
+2017-04-14 17:35:30,755 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 17:35:30,755 412 INFO events: {'UserBuy'}
+2017-04-14 17:35:30,755 413 INFO start import csv from E://buy.csv
+2017-04-14 17:35:30,755 936 INFO running debug mode
+2017-04-14 17:35:30,755 953 INFO progress 0.00% {'total_write': 0, 'total_read': 0, 'total': 3, 'error': 0, 'skip': 0}
+2017-04-14 17:35:30,833 495 INFO end import csv
+2017-04-14 17:35:30,833 976 INFO counter = {'total_write': 3, 'total_read': 3, 'total': 3, 'error': 0, 'skip': 0}.
+2017-04-14 17:35:51,942 929 DEBUG args: {'add_cname': False,
+ 'csv_delimiter': ',',
+ 'csv_prefetch_lines': -1,
+ 'csv_quotechar': '"',
+ 'debug': True,
+ 'distinct_id_from': 'item_id',
+ 'event_default': 'UserBuy',
+ 'event_from': None,
+ 'filename': 'E://buy.csv',
+ 'ignore_value': [],
+ 'password': None,
+ 'project': 'default',
+ 'property_list': None,
+ 'quit_on_error': False,
+ 'skip_cnt': 0,
+ 'skip_identify': None,
+ 'subparser_name': 'csv_event',
+ 'timestamp_default': None,
+ 'timestamp_format': '%Y-%m-%d %H:%M:%S',
+ 'timestamp_from': 'buy_time',
+ 'url': 'http://123.59.209.214:8006/sa',
+ 'username': None,
+ 'web_url': None}
+2017-04-14 17:35:51,942 392 DEBUG ignore ['']
+2017-04-14 17:35:51,942 411 INFO column_schema: {'item_cate': {'cname': 'item_cate', 'ename': 'item_cate', 'type': 'string'},
+ 'item_name': {'cname': 'item_name', 'ename': 'item_name', 'type': 'string'},
+ 'user': {'cname': 'user', 'ename': 'user', 'type': 'string'}}
+2017-04-14 17:35:51,942 412 INFO events: {'UserBuy'}
+2017-04-14 17:35:51,942 413 INFO start import csv from E://buy.csv
+2017-04-14 17:35:51,942 936 INFO running debug mode
+2017-04-14 17:35:51,942 953 INFO progress 0.00% {'error': 0, 'skip': 0, 'total_read': 0, 'total': 3, 'total_write': 0}
+2017-04-14 17:35:52,010 495 INFO end import csv
+2017-04-14 17:35:52,010 976 INFO counter = {'error': 0, 'skip': 0, 'total_read': 3, 'total': 3, 'total_write': 3}.
