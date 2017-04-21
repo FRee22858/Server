@@ -55,23 +55,4 @@ Temporary Items
 *.tlh
 *.log
 *.tli
-
-/CPlusPlusServerProject/DataTransferLib/DataTransferLib.vcxproj.user
-/CPlusPlusServerProject/DataTransferLib/x64/Debug/DataTransferLib.vcxprojResolveAssemblyReference.cache
-/CPlusPlusServerProject/Debug/LuaLib.lib
-/CPlusPlusServerProject/IServer/IServer.vcxproj.user
-/CPlusPlusServerProject/Log/x64/Debug/Log.vcxprojResolveAssemblyReference.cache
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/contents.html
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/index.css
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/logo.gif
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/lua.1
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/lua.css
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/luac.1
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/manual.css
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/manual.html
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/osi-certified-72x60.png
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/doc/readme.html
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/Makefile
-/CPlusPlusServerProject/LuaLib/lua-5.3.4/README
-/CPlusPlusServerProject/My Server/Debug/My Server.pch
-/CPlusPlusServerProject/My Server/My Server.sdf
+*.htm
